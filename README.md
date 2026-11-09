@@ -83,7 +83,7 @@ Trained weights are hosted on [ModelScope](https://www.modelscope.cn/models/HHUg
 
 | Model | Dataset | Backbone | Image size | Global step | Weights | Config |
 | --- | --- | --- | --- | --- | --- | --- |
-| AerialOcc temporal-rebuild (best) | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 24,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt) | [config](configs/aerialocc20k_temporal_rebuild.py) |
+| AerialOcc | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 24,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt) | [config](configs/aerialocc20k_temporal_rebuild.py) |
 
 Use the linked configuration for these weights. This temporal-rebuild checkpoint
 predates the additional six-direction auxiliary geometry branch in the default
