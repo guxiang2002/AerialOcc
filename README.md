@@ -6,7 +6,7 @@ Maintainer: [gu_xiang](https://github.com/guxiang2002)
 
 ## Introduction
 
-we present AerialOcc, a unified aerial perception model built upon a novel architectural paradigm centered on semantic scene completion. Our model leverages the dense voxel-level outputs inherent in semantic occupancy, converting them into the formats required by other vision-centric tasks. AerialOcc supports scene-, region-, and instance-level perception within a unified architecture, without the need to design a separate task-specific head for each task.
+We present AerialOcc, a unified aerial perception model built upon a novel architectural paradigm centered on semantic scene completion. Our model leverages the dense voxel-level outputs inherent in semantic occupancy, converting them into the formats required by other vision-centric tasks. AerialOcc supports scene-, region-, and instance-level perception within a unified architecture, without the need to design a separate task-specific head for each task.
 
 ## Method
 
