@@ -30,7 +30,7 @@ git clone https://github.com/guxiang2002/AerialOcc.git
 cd AerialOcc
 ```
 
-Refer to [install.md](docs/install.md) to install the environment and CUDA extensions.
+Refer to [install.md](docs/install.md) to install the environment.
 
 ### Dataset
 
@@ -86,14 +86,20 @@ Trained AerialOcc weights are not included in this code update.
 
 ## Acknowledgement
 
-Our implementation builds on [CGFormer](https://github.com/pkqbajng/CGFormer).
-We also thank the open-source projects used by the original codebase, including
-[MMDetection3D](https://github.com/open-mmlab/mmdetection3d),
-[VoxFormer](https://github.com/NVlabs/VoxFormer),
-[DFA3D](https://github.com/IDEA-Research/3D-deformable-attention).
+Many thanks to these exceptional open source projects:
 
-See [source acknowledgements](docs/ACKNOWLEDGEMENTS.md).
-The [Apache-2.0 license](LICENSE) is retained.
+- [CGFormer](https://github.com/pkqbajng/CGFormer)
+- [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
+- [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
+- [MonoScene](https://github.com/astra-vision/MonoScene)
+- [semantic-kitti-api](https://github.com/PRBonn/semantic-kitti-api)
+- [MobileStereoNet](https://github.com/cogsys-tuebingen/mobilestereonet)
+- [Symphonize](https://github.com/hustvl/Symphonies.git)
+- [DFA3D](https://github.com/IDEA-Research/3D-deformable-attention.git)
+- [VoxFormer](https://github.com/NVlabs/VoxFormer.git)
+- [OccFormer](https://github.com/zhangyp15/OccFormer.git)
+
+As it is not possible to list all the projects of the reference papers. If you find we leave out your repo, please contact us and we'll update the lists.
 
 ## Contact
 
