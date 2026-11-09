@@ -1,0 +1,49 @@
+# Python / editor files
+__pycache__/
+*.py[cod]
+.codex/
+.vscode/
+# Local datasets, dependencies, weights and generated results
+/data/
+/.deps/
+/outputs/
+/logs/
+/runs/
+/results/
+/tests/
+/experiments/
+/ckpts/
+/pred*/
+/visualize_*/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.label
+*.bin
+*.invalid
+*.occluded
+*.npy
+*.npz
+*.pkl
+*.log
+*.tmp
+*.swp
+*.swo
+# Compiled extensions and build outputs
+*.so
+*.o
+*.egg-info/
+.eggs/
+build/
+# Figures are released only under docs/assets
+*.png
+*.pdf
+!docs/assets/*.png
+!docs/assets/*.pdf
+# Historical data-specific outputs never belong to this release
+/lby/
+/uav3d*/
+/panoocc*/
+/repro_*/
+/*_artifacts/

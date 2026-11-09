@@ -1,0 +1,101 @@
+# AerialOcc
+
+**Unified 3D Aerial Perception without Task-specific Heads**
+
+Maintainer: [gu_xiang](https://github.com/guxiang2002)
+
+## Introduction
+
+we present AerialOcc, a unified aerial perception model built upon a novel architectural paradigm centered on semantic scene completion. Our model leverages the dense voxel-level outputs inherent in semantic occupancy, converting them into the formats required by other vision-centric tasks. AerialOcc supports scene-, region-, and instance-level perception within a unified architecture, without the need to design a separate task-specific head for each task.
+
+## Method
+
+[![Overview of AerialOcc](docs/assets/aerialocc_method.png)](docs/assets/aerialocc_method.pdf)
+
+Overview of AerialOcc. Given adjacent and current aerial images, together with
+estimated or sensor-provided depth maps, AerialOcc constructs 3D voxel latent
+features through voxel queries and geometric feature encoding. The voxel
+features are processed by a MLP to predict semantic occupancy logits, while
+geometry aware supervision is applied to refine voxel feature. The refined
+occupancy volume serves as a unified 3D scene representation, from which semantic
+segmentation and object detection are derived through occupancy-based
+post-processing.
+
+## Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/guxiang2002/AerialOcc.git
+cd AerialOcc
+```
+
+Refer to [install.md](docs/install.md) to install the environment and CUDA extensions.
+
+### Dataset
+
+Download **AerialOcc-20K** from
+[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
+See [dataset.md](docs/dataset.md) for data preparation and the directory layout.
+
+```bash
+export AERIALOCC_DATA_ROOT=/path/to/AerialOcc-20K
+```
+
+### Training
+
+Prepare the input depth, training-only teacher cache and initialization weights
+as described in [dataset.md](docs/dataset.md) and [install.md](docs/install.md).
+
+```bash
+python main.py --config_path configs/aerialocc20k.py
+```
+
+### Occupancy Inference
+
+```bash
+python main.py --config_path configs/aerialocc20k.py --eval --ckpt_path /path/to/model.ckpt --save_path outputs/predictions
+```
+
+### Segmentation and Detection
+
+```bash
+python tools/aerialocc_export_occ.py --config configs/aerialocc20k.py --checkpoint /path/to/model.ckpt --output outputs/export
+
+python tools/aerialocc_eval26.py --manifest outputs/export/frames.json --gt-label-space contiguous --task occ-seg --output outputs/export/seg26.json
+
+python tools/aerialocc_eval26.py --manifest outputs/export/frames.json --gt-label-space contiguous --task det --output outputs/export/det26.json
+
+python tools/aerialocc_eval26.py --manifest outputs/export/frames.json --gt-label-space contiguous --task all --output outputs/export/all26.json
+```
+
+### Visualization
+
+```bash
+python tools/aerialocc_visualize.py --data-root "$AERIALOCC_DATA_ROOT" --pred-root outputs/predictions --scene scene_16 --frame 000000 --output-root outputs/visualizations
+```
+
+See [visualization.md](docs/visualization.md) for additional options.
+
+## Model Zoo
+
+The image/segmentation-depth initialization used by the released configurations
+is available from the
+[upstream pretraining checkpoint](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/efficientnet-seg-depth.pth).
+Trained AerialOcc weights are not included in this code update.
+
+## Acknowledgement
+
+Our implementation builds on [CGFormer](https://github.com/pkqbajng/CGFormer).
+We also thank the open-source projects used by the original codebase, including
+[MMDetection3D](https://github.com/open-mmlab/mmdetection3d),
+[VoxFormer](https://github.com/NVlabs/VoxFormer),
+[DFA3D](https://github.com/IDEA-Research/3D-deformable-attention).
+
+See [source acknowledgements](docs/ACKNOWLEDGEMENTS.md).
+The [Apache-2.0 license](LICENSE) is retained.
+
+## Contact
+
+Please open an [issue](https://github.com/guxiang2002/AerialOcc/issues) for
+questions about AerialOcc.
