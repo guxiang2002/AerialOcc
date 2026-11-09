@@ -79,10 +79,22 @@ See [visualization.md](docs/visualization.md) for additional options.
 
 ## Model Zoo
 
-The image/segmentation-depth initialization used by the released configurations
-is available from the
-[upstream pretraining checkpoint](https://github.com/pkqbajng/CGFormer/releases/download/v1.0/efficientnet-seg-depth.pth).
-Trained AerialOcc weights are not included in this code update.
+Trained weights are hosted on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
+
+| Model | Dataset | Backbone | Image size | Global step | Weights | Config |
+| --- | --- | --- | --- | --- | --- | --- |
+| AerialOcc temporal-rebuild (best) | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 24,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt) | [config](configs/aerialocc20k_temporal_rebuild.py) |
+
+Use the linked configuration for these weights. This temporal-rebuild checkpoint
+predates the additional six-direction auxiliary geometry branch in the default
+full-method configuration.
+
+```bash
+wget -O best.ckpt 'https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt'
+python main.py --config_path configs/aerialocc20k_temporal_rebuild.py --eval --ckpt_path best.ckpt --save_path outputs/predictions
+```
+
+[SHA-256 and checkpoint metadata](https://www.modelscope.cn/models/HHUguxiang/AerialOcc/files).
 
 ## Acknowledgement
 
