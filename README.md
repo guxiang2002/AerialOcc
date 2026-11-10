@@ -51,9 +51,6 @@ as described in [dataset.md](docs/dataset.md) and [install.md](docs/install.md).
 python main.py --config_path configs/aerialocc20k.py
 ```
 
-The default preset runs full validation every 1,000 global steps and selects
-`best` by 26-class SSC mIoU.
-
 ### Occupancy Inference
 
 ```bash
@@ -88,7 +85,7 @@ Trained weights are hosted on [ModelScope](https://www.modelscope.cn/models/HHUg
 | --- | --- | --- | --- | --- | --- | --- |
 | AerialOcc | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 25,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=aerialocc20k%2Fbest.ckpt) | [config](configs/aerialocc20k.py) |
 
-| Validation frames | OCC IoU (%) | Precision (%) | Recall (%) | 26-class SSC mIoU (%) |
+| Validation frames | OCC IoU (%) | Precision (%) | Recall (%) | mIoU (%) |
 | --- | --- | --- | --- | --- |
 | 4,000 | 69.0187 | 81.1054 | 82.2423 | 29.9288 |
 
