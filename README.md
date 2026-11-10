@@ -51,6 +51,9 @@ as described in [dataset.md](docs/dataset.md) and [install.md](docs/install.md).
 python main.py --config_path configs/aerialocc20k.py
 ```
 
+The default preset runs full validation every 1,000 global steps and selects
+`best` by 26-class SSC mIoU.
+
 ### Occupancy Inference
 
 ```bash
@@ -83,18 +86,22 @@ Trained weights are hosted on [ModelScope](https://www.modelscope.cn/models/HHUg
 
 | Model | Dataset | Backbone | Image size | Global step | Weights | Config |
 | --- | --- | --- | --- | --- | --- | --- |
-| AerialOcc | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 24,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt) | [config](configs/aerialocc20k_temporal_rebuild.py) |
+| AerialOcc | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 25,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=aerialocc20k%2Fbest.ckpt) | [config](configs/aerialocc20k.py) |
 
-Use the linked configuration for these weights. This temporal-rebuild checkpoint
-predates the additional six-direction auxiliary geometry branch in the default
-full-method configuration.
+| Validation frames | OCC IoU (%) | Precision (%) | Recall (%) | 26-class SSC mIoU (%) |
+| --- | --- | --- | --- | --- |
+| 4,000 | 69.0187 | 81.1054 | 82.2423 | 29.9288 |
+
+The download contains the native 25,000-step checkpoint, including optimizer and
+scheduler states, and matches `configs/aerialocc20k.py`.
 
 ```bash
-wget -O best.ckpt 'https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=temporal-rebuild%2Fbest.ckpt'
-python main.py --config_path configs/aerialocc20k_temporal_rebuild.py --eval --ckpt_path best.ckpt --save_path outputs/predictions
+wget -O best.ckpt 'https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=aerialocc20k%2Fbest.ckpt'
+python main.py --config_path configs/aerialocc20k.py --eval --ckpt_path best.ckpt --save_path outputs/predictions
 ```
 
-[SHA-256 and checkpoint metadata](https://www.modelscope.cn/models/HHUguxiang/AerialOcc/files).
+See [checkpoint metadata and validation protocol](docs/model_zoo.md) for SHA-256
+and evaluation details.
 
 ## Acknowledgement
 

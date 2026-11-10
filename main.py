@@ -128,6 +128,8 @@ if __name__ == '__main__':
         callbacks.append(
             ModelCheckpoint(
                 dirpath=checkpoint_dirpath,
+                monitor='step',
+                mode='max',
                 save_top_k=checkpoint_save_top_k,
                 every_n_train_steps=checkpoint_every_n_train_steps,
                 save_on_train_epoch_end=False,

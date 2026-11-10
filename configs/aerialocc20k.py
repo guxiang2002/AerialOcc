@@ -498,6 +498,11 @@ model = dict(
 learning_rate = 3e-4
 training_steps = 25000
 
+# Full validation every 1,000 global steps, including the 25k endpoint.
+# None makes the interval continue across epoch boundaries.
+val_check_interval = 1000
+check_val_every_n_epoch = None
+
 optimizer = dict(type='AdamW', lr=learning_rate, weight_decay=0.01)
 
 lr_scheduler = dict(
