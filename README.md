@@ -85,9 +85,9 @@ Trained weights are hosted on [ModelScope](https://www.modelscope.cn/models/HHUg
 | --- | --- | --- | --- | --- | --- | --- |
 | AerialOcc | AerialOcc-20K | EfficientNet-B7 | 704 x 384 | 25,000 | [best.ckpt](https://www.modelscope.cn/api/v1/models/HHUguxiang/AerialOcc/repo?Revision=master&FilePath=aerialocc20k%2Fbest.ckpt) | [config](configs/aerialocc20k.py) |
 
-| Validation frames | OCC IoU (%) | Precision (%) | Recall (%) | mIoU (%) |
-| --- | --- | --- | --- | --- |
-| 4,000 | 69.0187 | 81.1054 | 82.2423 | 29.9288 |
+| Validation frames | OCC IoU (%) | mIoU (%) |
+| --- | --- | --- |
+| 4,000 | 69.0187 | 29.9288 |
 
 The download contains the native 25,000-step checkpoint, including optimizer and
 scheduler states, and matches `configs/aerialocc20k.py`.
