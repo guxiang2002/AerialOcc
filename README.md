@@ -8,6 +8,15 @@ Maintainer: [gu_xiang](https://github.com/guxiang2002)
 
 We present AerialOcc, a unified aerial perception model built upon a novel architectural paradigm centered on semantic scene completion. Our model leverages the dense voxel-level outputs inherent in semantic occupancy, converting them into the formats required by other vision-centric tasks. AerialOcc supports scene-, region-, and instance-level perception within a unified architecture, without the need to design a separate task-specific head for each task.
 
+We also build **AerialOcc-20K**, a synthetic aerial perception dataset with
+20,000 samples collected from 20 scenes across four CARLA towns. It combines
+paired aerial RGB images and LiDAR point clouds with voxel-level semantic
+annotations for 26 foreground classes, supporting occupancy prediction and
+occupancy-based semantic segmentation and object detection. Covering Town03,
+Town05, Town07, and Town10HD, the dataset provides 16,000 training samples and
+4,000 validation samples. The dataset is publicly available on
+[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
+
 ## Method
 
 [![Overview of AerialOcc](docs/assets/aerialocc_method.png)](docs/assets/aerialocc_method.pdf)
@@ -33,6 +42,10 @@ cd AerialOcc
 Refer to [install.md](docs/install.md) to install the environment.
 
 ### Dataset
+
+[![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png)](docs/assets/Dataset.pdf)
+
+[Dataset overview (PDF)](docs/assets/Dataset.pdf)
 
 Download **AerialOcc-20K** from
 [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
