@@ -2,13 +2,17 @@
 
 # AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
 
-[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)1,2<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup><br>
-[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>
+[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)1,2<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (刘凡),
+[**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (顾翔),
+[**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (吕抱玉),
+[**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (张传一)
+
+[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (姚亮),
+[**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (马玉叶),
+[**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup> (郑钰辉)
 
 <sup>1</sup> Hohai University<br>
 <sup>2</sup> Key Laboratory of Water Big Data Technology of Ministry of Water Resources
-
-**Email:** [fanliu@hhu.edu.cn](mailto:fanliu@hhu.edu.cn)
 
 **Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)
 
