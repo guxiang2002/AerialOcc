@@ -14,9 +14,7 @@
 <sup>1</sup> Hohai University<br>
 <sup>2</sup> Key Laboratory of Water Big Data Technology of Ministry of Water Resources
 
-**Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)
-
-**Dataset:** [AerialOcc-20K](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
+**Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)    **Dataset:** [AerialOcc-20K](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
 
 </div>
 
