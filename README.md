@@ -1,23 +1,36 @@
-# AerialOcc
+<div align="center">
 
-**Unified 3D Aerial Perception without Task-specific Heads**
+# AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
 
-Maintainer: [gu_xiang](https://github.com/guxiang2002)
+[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)<sup>1,2</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Xiang Gu**](https://github.com/guxiang2002)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+**Baoyu Lv**<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+**Yuye Ma**<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">
+
+<sup>1</sup> Hohai University<br>
+<sup>2</sup> Key Laboratory of Water Big Data Technology of Ministry of Water Resources
+
+**Email:** [fanliu@hhu.edu.cn](mailto:fanliu@hhu.edu.cn)
+
+**Model:** [AerialOcc (ModelScope)](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)
+
+**Dataset:** [AerialOcc-20K (ModelScope)](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
+
+</div>
+
+## News
+
+- **2026/11/11**: The [AerialOcc-20K dataset overview](docs/assets/Dataset.pdf) is now available.
+- **2026/11/10**: We have released the **25k AerialOcc checkpoint** for `configs/aerialocc20k.py` on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
 
 ## Introduction
 
 We present AerialOcc, a unified aerial perception model built upon a novel architectural paradigm centered on semantic scene completion. Our model leverages the dense voxel-level outputs inherent in semantic occupancy, converting them into the formats required by other vision-centric tasks. AerialOcc supports scene-, region-, and instance-level perception within a unified architecture, without the need to design a separate task-specific head for each task.
 
-We also build **AerialOcc-20K**, a synthetic aerial perception dataset with
-20,000 samples collected from 20 scenes across four CARLA towns. It combines
-paired aerial RGB images and LiDAR point clouds with voxel-level semantic
-annotations for 26 foreground classes, supporting occupancy prediction and
-occupancy-based semantic segmentation and object detection. Covering Town03,
-Town05, Town07, and Town10HD, the dataset provides 16,000 training samples and
-4,000 validation samples. The dataset is publicly available on
-[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
-
-## Method
+### Method
 
 [![Overview of AerialOcc](docs/assets/aerialocc_method.png)](docs/assets/aerialocc_method.pdf)
 
@@ -30,6 +43,21 @@ occupancy volume serves as a unified 3D scene representation, from which semanti
 segmentation and object detection are derived through occupancy-based
 post-processing.
 
+### Dataset
+
+[![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png)](docs/assets/Dataset.pdf)
+
+[Dataset overview (PDF)](docs/assets/Dataset.pdf)
+
+We also build **AerialOcc-20K**, a synthetic aerial perception dataset with
+20,000 samples collected from 20 scenes across four CARLA towns. It combines
+paired aerial RGB images and LiDAR point clouds with voxel-level semantic
+annotations for 26 foreground classes, supporting occupancy prediction and
+occupancy-based semantic segmentation and object detection. Covering Town03,
+Town05, Town07, and Town10HD, the dataset provides 16,000 training samples and
+4,000 validation samples. The dataset is publicly available on
+[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
+
 ## Getting Started
 
 ### Installation
@@ -41,11 +69,7 @@ cd AerialOcc
 
 Refer to [install.md](docs/install.md) to install the environment.
 
-### Dataset
-
-[![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png)](docs/assets/Dataset.pdf)
-
-[Dataset overview (PDF)](docs/assets/Dataset.pdf)
+### Data Preparation
 
 Download **AerialOcc-20K** from
 [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
