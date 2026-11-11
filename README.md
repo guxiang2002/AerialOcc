@@ -1,6 +1,6 @@
 <div align="center">
 
-# AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
+# AerialOcc: Unified 3D Aerial Perception without Task-specific Head
 
 [**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)<sup>1,2&nbsp;<img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:middle;"></sup> (刘凡),
 [**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)<sup>1&nbsp;<img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:middle;"></sup> (顾翔),
