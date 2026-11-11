@@ -3,11 +3,11 @@
 # AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
 
 [**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)<sup>1,2</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
-[**Xiang Gu**](https://github.com/guxiang2002)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
-**Baoyu Lv**<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
 [**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
 [**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
-**Yuye Ma**<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
+[**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
 [**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">
 
 <sup>1</sup> Hohai University<br>
@@ -15,9 +15,9 @@
 
 **Email:** [fanliu@hhu.edu.cn](mailto:fanliu@hhu.edu.cn)
 
-**Model:** [AerialOcc (ModelScope)](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)
+**Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)
 
-**Dataset:** [AerialOcc-20K (ModelScope)](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
+**Dataset:** [AerialOcc-20K](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
 
 </div>
 
@@ -46,8 +46,6 @@ post-processing.
 ### Dataset
 
 [![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png)](docs/assets/Dataset.pdf)
-
-[Dataset overview (PDF)](docs/assets/Dataset.pdf)
 
 We also build **AerialOcc-20K**, a synthetic aerial perception dataset with
 20,000 samples collected from 20 scenes across four CARLA towns. It combines
