@@ -2,15 +2,8 @@
 
 # AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
 
-<div align="center">
-  [**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)<sup>1,2</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15"> &nbsp;&nbsp;&nbsp;
-  [**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15"> &nbsp;&nbsp;&nbsp;
-  [**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15"> &nbsp;&nbsp;&nbsp;
-  [**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">
-  <br><br>
-  [**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15"> &nbsp;&nbsp;&nbsp;
-  [**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15"> &nbsp;&nbsp;&nbsp;
-  [**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)<sup>1</sup> <img src="docs/assets/hhu_logo.png" alt="Hohai University" width="15">
+[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)1,2 ![Hohai University](docs/assets/hhu_logo.png), [**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)1 ![Hohai University](docs/assets/hhu_logo.png), [**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)1 ![Hohai University](docs/assets/hhu_logo.png), [**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)1 ![Hohai University](docs/assets/hhu_logo.png)<br>
+[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)1 ![Hohai University](docs/assets/hhu_logo.png), [**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)1 ![Hohai University](docs/assets/hhu_logo.png), [**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)1 ![Hohai University](docs/assets/hhu_logo.png)
 
 
 <sup>1</sup> Hohai University<br>
