@@ -2,13 +2,8 @@
 
 # AerialOcc: Unified 3D Aerial Perception without Task-specific Heads
 
-[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)1,2 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)1 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)1 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)1 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)1 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)1 ![Hohai University](docs/assets/hhu_logo.png),    
-[**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)1 ![Hohai University](docs/assets/hhu_logo.png)
+[**Fan Liu**](https://multimodality.group/author/%E5%88%98%E5%87%A1/)1,2<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Xiang Gu**](https://multimodality.group/author/%E9%A1%BE%E7%BF%94/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Baoyu Lv**](https://multimodality.group/author/%E5%90%95%E6%8A%B1%E7%8E%89/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Chuanyi Zhang**](https://ai.hhu.edu.cn/2023/0809/c17670a264073/page.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup><br>
+[**Liang Yao**](https://multimodality.group/author/%E5%A7%9A%E4%BA%AE/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Yuye Ma**](https://multimodality.group/author/%E9%A9%AC%E7%8E%89%E5%8F%B6/)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>, [**Yuhui Zheng**](https://faculty.nuist.edu.cn/zhengyuhui/en/index.htm)1<sup><img src="docs/assets/hhu_logo.png" alt="Hohai University" style="height:1em;vertical-align:super;"></sup>
 
 <sup>1</sup> Hohai University<br>
 <sup>2</sup> Key Laboratory of Water Big Data Technology of Ministry of Water Resources
