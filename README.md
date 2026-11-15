@@ -29,7 +29,7 @@ We present AerialOcc, a unified aerial perception model built upon a novel archi
 
 ### Method
 
-[![Overview of AerialOcc](docs/assets/aerialocc_method.png)](docs/assets/aerialocc_method.pdf)
+[![Overview of AerialOcc](docs/assets/aerialocc_method.png?v=20261114)](docs/assets/aerialocc_method.pdf)
 
 Overview of AerialOcc. Given adjacent and current aerial images, together with
 estimated or sensor-provided depth maps, AerialOcc constructs 3D voxel latent
@@ -42,7 +42,7 @@ post-processing.
 
 ### Dataset
 
-[![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png)](docs/assets/Dataset.pdf)
+[![AerialOcc-20K dataset overview](docs/assets/aerialocc_dataset.png?v=20261114)](docs/assets/Dataset.pdf)
 
 We also build **AerialOcc-20K**, a synthetic aerial perception dataset with
 20,000 samples collected from 20 scenes across four CARLA towns. It combines
