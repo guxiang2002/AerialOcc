@@ -20,8 +20,8 @@
 
 ## News
 
-- **2026/11/11**: The [AerialOcc-20K dataset overview](docs/assets/Dataset.pdf) is now available.
-- **2026/11/10**: We have released the **25k AerialOcc checkpoint** for `configs/aerialocc20k.py` on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
+- **2026/11/11**: We have released the **AerialOcc-20K dataset** on [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
+- **2026/11/10**: We have released the **AerialOcc checkpoint** for `configs/aerialocc20k.py` on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
 
 ## Introduction
 
