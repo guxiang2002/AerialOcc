@@ -14,12 +14,12 @@
 <sup>1</sup> Hohai University<br>
 <sup>2</sup> Key Laboratory of Water Big Data Technology of Ministry of Water Resources
 
-**Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)    **Dataset:** [AerialOcc-20K](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)
+**Model:** [AerialOcc](https://www.modelscope.cn/models/HHUguxiang/AerialOcc)    **Dataset:** [AerialOcc-20K](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K)    **Paper:** [AerialOcc](https://arxiv.org/abs/2611.18770)
 
 </div>
 
 ## News
-
+- **2026/11/12**: We have released the **AerialOcc Paper** on [arXiv](https://arxiv.org/abs/2611.18770).
 - **2026/11/11**: We have released the **AerialOcc-20K dataset** on [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
 - **2026/11/10**: We have released the **AerialOcc checkpoint** for `configs/aerialocc20k.py` on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
 
