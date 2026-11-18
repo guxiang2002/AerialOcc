@@ -19,7 +19,7 @@
 </div>
 
 ## News
-- **2026/11/12**: We have released the **AerialOcc Paper** on [arXiv](https://arxiv.org/abs/2611.18770).
+- **2026/11/17**: We have updated the **AerialOcc Paper** on [arXiv](https://arxiv.org/abs/2611.18770).
 - **2026/11/11**: We have released the **AerialOcc-20K dataset** on [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
 - **2026/11/10**: We have released the **AerialOcc checkpoint** for `configs/aerialocc20k.py` on [ModelScope](https://www.modelscope.cn/models/HHUguxiang/AerialOcc).
 
