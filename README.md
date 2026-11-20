@@ -135,12 +135,12 @@ and evaluation details.
 ## Acknowledgement
 
 Many thanks to these exceptional open source projects:
-
 - [CGFormer](https://github.com/pkqbajng/CGFormer)
 - [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
 - [mmdet3d](https://github.com/open-mmlab/mmdetection3d)
 - [MonoScene](https://github.com/astra-vision/MonoScene)
 - [semantic-kitti-api](https://github.com/PRBonn/semantic-kitti-api)
+- [3DMapping](https://github.com/UMich-CURLY/3DMapping)
 - [MobileStereoNet](https://github.com/cogsys-tuebingen/mobilestereonet)
 - [Symphonize](https://github.com/hustvl/Symphonies.git)
 - [DFA3D](https://github.com/IDEA-Research/3D-deformable-attention.git)
