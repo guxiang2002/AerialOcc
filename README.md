@@ -51,7 +51,7 @@ annotations for 26 foreground classes, supporting occupancy prediction and
 occupancy-based semantic segmentation and object detection. Covering Town03,
 Town05, Town07, and Town10HD, the dataset provides 16,000 training samples and
 4,000 validation samples. The dataset is publicly available on
-[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K). (depth.tar.gz, preprocess.tar.gz, Train.tar.gz and Val.tar.gz)
+[ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K). 
 
 ## Getting Started
 
@@ -68,7 +68,7 @@ Refer to [install.md](docs/install.md) to install the environment.
 
 Download **AerialOcc-20K** from
 [ModelScope](https://www.modelscope.cn/datasets/HHUguxiang/AerialOcc-20K).
-See [dataset.md](docs/dataset.md) for data preparation and the directory layout. (depth.tar.gz, preprocess.tar.gz, Train.tar.gz and Val.tar.gz)
+See [dataset.md](docs/dataset.md) for data preparation and the directory layout. 
 
 ```bash
 export AERIALOCC_DATA_ROOT=/path/to/AerialOcc-20K
